@@ -1,0 +1,304 @@
+[
+  {
+    "key" : "k001",
+	"buildId" : "b001",
+	"enSegment" : "Review Date",
+	"frSegment" : "Date de révision",
+	"deSegment" : "Prüfungsdatum",
+	"koSegment" : "검토 일",
+	"zhSegment" : "审查日期",
+	"jpSegment" : "レビュー日"
+  },
+  {
+    "key" : "k002",
+	"buildId" : "b001",
+	"enSegment" : "Open Storyboard",
+	"frSegment" : "Ouvrir Storyboard",
+	"deSegment" : "Öffnen Sie Storyboard",
+	"koSegment" : "스토리 보드 열기",
+	"zhSegment" : "打开故事板",
+	"jpSegment" : "ストーリーボードを開く"
+  },
+  {
+    "key" : "k003",
+	"buildId" : "b001",
+	"enSegment" : "Field must be completed",
+	"frSegment" : "Le champ doit être rempli",
+	"deSegment" : "Feld muss ausgefüllt werden",
+	"koSegment" : "필드를 완료해야합니다.",
+	"zhSegment" : "字段必须填写",
+	"jpSegment" : "フィールドは完了する必要があります"
+  },
+  {
+    "key" : "k004",
+	"buildId" : "b001",
+	"enSegment" : "New Change Request",
+	"frSegment" : "Nouvelle demande de modification",
+	"deSegment" : "Neue Änderungsanforderung",
+	"koSegment" : "새로운 변경 요청",
+	"zhSegment" : "新的更改请求",
+	"jpSegment" : "新しい変更要求"
+  },
+  {
+    "key" : "k005",
+	"buildId" : "b001",
+	"enSegment" : "Edit Diagram details",
+	"frSegment" : "Modifier les détails du diagramme",
+	"deSegment" : "Diagrammdetails bearbeiten",
+	"koSegment" : "다이어그램 세부 정보 편집",
+	"zhSegment" : "编辑图详细信息",
+	"jpSegment" : "ダイアグラムの詳細の編集"
+  },
+  {
+    "key" : "k006",
+	"buildId" : "b001",
+	"enSegment" : "Record a New Storyboard",
+	"frSegment" : "Enregistrer un nouveau story-board",
+	"deSegment" : "Notiere einen neuen Storyboard",
+	"koSegment" : "새로운 스토리 보드 작성",
+	"zhSegment" : "写一个新的故事板",
+	"jpSegment" : "新しいストーリーボードを録画する"
+  },
+  {
+    "key" : "k007",
+	"buildId" : "b001",
+	"enSegment" : "enter recipients name",
+	"frSegment" : "Entrez le nom des destinataires",
+	"deSegment" : "Geben Sie den Namen des Empfängers ein",
+	"koSegment" : "수신자 이름을 입력하십시오.",
+	"zhSegment" : "输入收件人名称",
+	"jpSegment" : "受信者名を入力"
+  },
+  {
+    "key" : "k008",
+	"buildId" : "b001",
+	"enSegment" : "View Document details",
+	"frSegment" : "Afficher les détails du document",
+	"deSegment" : "Dokumentdetails anzeigen",
+	"koSegment" : "문서 세부 사항보기",
+	"zhSegment" : "查看文档详细信息",
+	"jpSegment" : "ドキュメントの詳細を表示"
+  },
+  {
+    "key" : "k009",
+	"buildId" : "b001",
+	"enSegment" : "Upload New Version",
+	"frSegment" : "Télécharger une nouvelle version",
+	"deSegment" : "Neue Version hochladen",
+	"koSegment" : "새 버전 업로드",
+	"zhSegment" : "上传新版本",
+	"jpSegment" : "新しいバージョンをアップロード"
+  },
+  {
+    "key" : "k010",
+	"buildId" : "b001",
+	"enSegment" : "Select a group to begin designing a home page.",
+	"frSegment" : "Sélectionnez un groupe pour commencer à concevoir une page d'accueil",
+	"deSegment" : "Wählen Sie eine Gruppe aus, um mit dem Entwerfen einer Homepage zu beginnen",
+	"koSegment" : "그룹을 선택하여 홈페이지 디자인 시작",
+	"zhSegment" : "选择一个组开始设计主页",
+	"jpSegment" : "ホームページの設計を開始するグループを選択する"
+
+  },
+  {
+    "key" : "k001",
+	"buildId" : "b002",
+	"enSegment" : "Reviewed Date",
+	"frSegment" : "Date de révision",
+	"deSegment" : "PBewertetes Datum",
+	"koSegment" : "검토 일",
+	"zhSegment" : "审核日期",
+	"jpSegment" : "レビューされた日付"
+  },
+  {
+    "key" : "k002",
+	"buildId" : "b002",
+	"enSegment" : "Open Storyboard",
+	"frSegment" : "Ouvrir Storyboard",
+	"deSegment" : "Öffnen Sie Storyboard",
+	"koSegment" : "스토리 보드 열기",
+	"zhSegment" : "打开故事板",
+	"jpSegment" : "ストーリーボードを開く"
+  },
+  {
+    "key" : "k003",
+	"buildId" : "b002",
+	"enSegment" : "Field must be completed by the user",
+	"frSegment" : "Le champ doit être rempli par l'utilisateur",
+	"deSegment" : "Das Feld muss vom Benutzer ausgefüllt werden",
+	"koSegment" : "필드는 사용자가 완료해야합니다.",
+	"zhSegment" : "字段必须由用户完成",
+	"jpSegment" : "フィールドはユーザーが入力する必要があります"
+  },
+  {
+    "key" : "k004",
+	"buildId" : "b002",
+	"enSegment" : "New Change Request",
+	"frSegment" : "Nouvelle demande de modification",
+	"deSegment" : "Neue Änderungsanforderung",
+	"koSegment" : "새로운 변경 요청",
+	"zhSegment" : "新的更改请求",
+	"jpSegment" : "新しい変更要求"
+  },
+  {
+    "key" : "k005",
+	"buildId" : "b002",
+	"enSegment" : "Edit Diagram Details with date",
+	"frSegment" : "Modifier les détails du diagramme avec la date",
+	"deSegment" : "Diagramm mit Details bearbeiten",
+	"koSegment" : "날짜가있는 다이어그램 세부 정보 편집",
+	"zhSegment" : "编辑带有日期的图表详细信息",
+	"jpSegment" : "ダイアグラムの詳細を日付とともに編集する"
+  },
+  {
+    "key" : "k006",
+	"buildId" : "b002",
+	"enSegment" : "Record a New Storyboard",
+	"frSegment" : "Enregistrer un nouveau story-board",
+	"deSegment" : "Notiere einen neuen Storyboard",
+	"koSegment" : "새로운 스토리 보드 작성",
+	"zhSegment" : "写一个新的故事板",
+	"jpSegment" : "新しいストーリーボードを録画する"
+  },
+  {
+    "key" : "k007",
+	"buildId" : "b002",
+	"enSegment" : "Enter recipient's name in captial",
+	"frSegment" : "Saisissez le nom du bénéficiaire en capital",
+	"deSegment" : "Geben Sie den Namen des Empfängers in das Kapital ein",
+	"koSegment" : "수령인의 이름을 자본으로 입력하십시오.",
+	"zhSegment" : "在大写中输入收件人的姓名",
+	"jpSegment" : "受取人の名前を資本"
+  },
+  {
+    "key" : "k008",
+	"buildId" : "b002",
+	"enSegment" : "View Document details",
+	"frSegment" : "Afficher les détails du document",
+	"deSegment" : "Dokumentdetails anzeigen",
+	"koSegment" : "문서 세부 사항보기",
+	"zhSegment" : "查看文档详细信息",
+	"jpSegment" : "ドキュメントの詳細を表示"
+  },
+  {
+    "key" : "k009",
+	"buildId" : "b002",
+	"enSegment" : "Upload New Version of document",
+	"frSegment" : "Importer une nouvelle version du document",
+	"deSegment" : "Neue Version des Dokuments hochladen",
+	"koSegment" : "새 버전의 문서 업로드",
+	"zhSegment" : "上传新版本",
+	"jpSegment" : "新しいバージョンのドキュメントをアップロードする"
+  },
+  {
+    "key" : "k010",
+	"buildId" : "b002",
+	"enSegment" : "Select a group to begin designing a home page.",
+	"frSegment" : "Sélectionnez un groupe pour commencer à concevoir une page d'accueil",
+	"deSegment" : "Wählen Sie eine Gruppe aus, um mit dem Entwerfen einer Homepage zu beginnen",
+	"koSegment" : "그룹을 선택하여 홈페이지 디자인 시작",
+	"zhSegment" : "选择一个组开始设计主页",
+	"jpSegment" : "ホームページの設計を開始するグループを選択する"
+  },
+  {
+    "key" : "k001",
+	"buildId" : "b003",
+	"enSegment" : "Reviewed Date",
+	"frSegment" : "Date de révision",
+	"deSegment" : "PBewertetes Datum",
+	"koSegment" : "검토 일",
+	"zhSegment" : "审核日期",
+	"jpSegment" : "レビューされた日付"
+  },
+  {
+    "key" : "k002",
+	"buildId" : "b003",
+	"enSegment" : "Open Storyboard with media player",
+	"frSegment" : "Ouvrez Storyboard avec lecteur multimédia",
+	"deSegment" : "Ouvrez Storyboard avec lecteur multimédia",
+	"koSegment" : "미디어 플레이어가있는 스토리 보드 열기",
+	"zhSegment" : "用媒体播放器打开故事板",
+	"jpSegment" : "メディアプレーヤーでストーリーボードを開く"
+  },
+  {
+    "key" : "k003",
+	"buildId" : "b003",
+	"enSegment" : "Field must be completed by the user",
+	"frSegment" : "Le champ doit être rempli par l'utilisateur",
+	"deSegment" : "Das Feld muss vom Benutzer ausgefüllt werden",
+	"koSegment" : "필드는 사용자가 완료해야합니다.",
+	"zhSegment" : "字段必须由用户完成",
+	"jpSegment" : "フィールドはユーザーが入力する必要があります"
+  },
+  {
+    "key" : "k004",
+	"buildId" : "b003",
+	"enSegment" : "New Change Request recived",
+	"frSegment" : "Nouvelle demande de changement reçue",
+	"deSegment" : "Neue Änderungsanfrage erhalten",
+	"koSegment" : "새 변경 요청 수신 됨",
+	"zhSegment" : "收到新的更改请求",
+	"jpSegment" : "新しい変更要求を受け取った"
+  },
+  {
+    "key" : "k005",
+	"buildId" : "b003",
+	"enSegment" : "Edit Diagram Details with date",
+	"frSegment" : "Modifier les détails du diagramme avec la date",
+	"deSegment" : "Diagramm mit Details bearbeiten",
+	"koSegment" : "날짜가있는 다이어그램 세부 정보 편집",
+	"zhSegment" : "编辑带有日期的图表详细信息",
+	"jpSegment" : "ダイアグラムの詳細を日付とともに編集する"
+  },
+  {
+    "key" : "k006",
+	"buildId" : "b003",
+	"enSegment" : "Record a New Storyboard and edit those details",
+	"frSegment" : "Enregistrer un nouveau storyboard et modifier ces détails",
+	"deSegment" : "Notiere einen neuen Storyboard und redigiere diese Details",
+	"koSegment" : "새 스토리 보드를 기록하고 세부 정보 편집",
+	"zhSegment" : "录制新的故事板并编辑这些详细信息",
+	"jpSegment" : "新しいストーリーボードを録画し、それらの詳細を編集する"
+  },
+  {
+    "key" : "k007",
+	"buildId" : "b003",
+	"enSegment" : "Enter recipient's name in captial",
+	"frSegment" : "Saisissez le nom du bénéficiaire en capital",
+	"deSegment" : "Geben Sie den Namen des Empfängers in das Kapital ein",
+	"koSegment" : "수령인의 이름을 자본으로 입력하십시오.",
+	"zhSegment" : "在大写中输入收件人的姓名",
+	"jpSegment" : "受取人の名前を資本"
+  },
+  {
+    "key" : "k008",
+	"buildId" : "b003",
+	"enSegment" : "View Document Details in all formats",
+	"frSegment" : "Afficher les détails du document dans tous les formats",
+	"deSegment" : "Dokumentendetails in allen Formaten anzeigen",
+	"koSegment" : "모든 형식의 문서 세부 정보보기",
+	"zhSegment" : "查看所有格式的文档详细信息",
+	"jpSegment" : "ドキュメントの詳細をすべての形式で表示"
+  },
+  {
+    "key" : "k009",
+	"buildId" : "b003",
+	"enSegment" : "Upload New Version of document",
+	"frSegment" : "Importer une nouvelle version du document",
+	"deSegment" : "Neue Version des Dokuments hochladen",
+	"koSegment" : "새 버전의 문서 업로드",
+	"zhSegment" : "上传新版本",
+	"jpSegment" : "新しいバージョンのドキュメントをアップロードする"
+  },
+  {
+    "key" : "k010",
+	"buildId" : "b003",
+	"enSegment" : "Select a administrator to begin designing a home page with existing template",
+	"frSegment" : "Sélectionnez un administrateur pour commencer à concevoir une page d'accueil avec un modèle existant",
+	"deSegment" : "Wählen Sie einen Administrator aus, um mit dem Entwerfen einer Homepage mit der vorhandenen Vorlage zu beginnen",
+	"koSegment" : "기존 템플리트가있는 홈 페이지 설계를 시작하려면 관리자를 선택하십시오.",
+	"zhSegment" : "选择管理员以开始使用现有模板设计主页",
+	"jpSegment" : "管理者を選択して、既存のテンプレートを使用してホームページを設計する"
+  }
+   
+]
