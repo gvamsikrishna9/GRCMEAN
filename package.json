@@ -9,13 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gvamsikrishna9/MEANprojects.git"
+    "url": "https://github.com/gvamsikrishna9/GRCMEAN.git"
   },
   "author": "Vamsi,Amit and Dinesh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1",
     "mongodb": "^2.2.24",
+    "mongojs": "^2.4.0",
     "mongoose": "^4.8.4"
   }
 }
