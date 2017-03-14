@@ -37,10 +37,10 @@
 	<div class="content">
 		<div>
 			<h2>You are at Phase #3</h2>
-	<legend>	<em>select the Source build, English segment and Check with target build if english segment is changed or same : </em><br><br><br></legend>
+	<legend>	<em>Select the Source build, English segment and Check with target build if english segment is changed or same : </em><br><br><br></legend>
 
 <div ng-controller="phase3Controller">
-<label  class="lab" >Source Build : </label>	
+<label  class="lab" >Source Build: </label>	
 <select ng-model="selectedSrcBuildNo" ng-change="getSegmentsForBuild()">
     		<option value="">Select BuildNo</option>
 			<option value="b001">BuildNo: 1</option>
@@ -51,7 +51,7 @@
 	 &nbsp; &nbsp; &nbsp; &nbsp;
 
 
-	  <label class="lab"> English Segment      : </label>	
+	  <label class="lab"> English Segment: </label>	
 	
  <select class="dropLang" ng-model="selectedseg" ng-options="obj.key as obj.enSegment for obj in buildSegments">
 	<option value="">Select Segment</option>
@@ -59,7 +59,7 @@
 
 <br><br><br>
 	  
-  <label  class="lab" > Target build : </label>	
+  <label  class="lab" > Target build: </label>	
 <select ng-model="selectedTgtBuildNo" ng-change="getOutput()">
     		<option value="">Select BuildNo</option>
 			<option value="b001">BuildNo: 1</option>
@@ -74,7 +74,7 @@
 
 			
 
-	 <label class="lab" id="displayTextArea1" style="display:none">Target Output Segment : <textarea rows="2" cols="75" ng-bind="outputsegment">  </textarea></label>
+	 <label class="lab" id="displayTextArea1" style="display:none">Target Output Segment: <textarea rows="2" cols="75" ng-bind="outputsegment">  </textarea></label>
 
 </div>
 
