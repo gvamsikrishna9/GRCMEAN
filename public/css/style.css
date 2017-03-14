@@ -63,7 +63,7 @@ body{
 
 /*content*/
 .content div{
-	width:940px;
+	width:1100px;
 	padding:100px 100px;
 	margin:0 auto;
 	color: black;
@@ -81,6 +81,11 @@ body{
 
 .drop{
 	width:150px;
+	 
+
+}
+.dropLang{
+	width:480px;
 	 
 
 }

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="phase1">
 <head>
 	<meta charset="UTF-8">
 	<title>The Mean GRC</title>
 	<link rel="stylesheet" href="\css\style.css" type="text/css">
-	
+	<script src="https://code.angularjs.org/1.2.22/angular.js"></script>
+	<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script src="../Phase_1/phase1display.js"></script>
 </head>
 <body>
 
@@ -34,46 +36,47 @@
 	<div class="content">
 		<div>
 			<h2>You are at Phase #2</h2>
-	<legend>	<em>select the build, English segment and requires translation language   : </em><br><br><br></legend>
+	<legend>	<em>select the build, English segment and requires translation language   : </em><br></legend>
 
-
+<div ng-controller="phase2Controller">
 <label  class="lab" > Build : </label>	
-<select class= "drop">
-	 <option value="" disabled selected>Select </option
-<option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-	 </select><br><br><br><br>
+<select ng-model="selectedBuildNo" ng-change="getSegmentsForBuild()">
+    		<option value="">Select BuildNo</option>
+			<option value="b001">BuildNo: 1</option>
+			<option value="b002">BuildNo: 2</option>
+			<option value="b003">BuildNo: 3</option>
+			</select>
+			<br><br>
 
 
 	  <label class="lab"> English Segment      : </label>	
 	
- <select class= "drop" >
-	  <option value="" disabled selected>Select </option
-	 <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
+ <select class= "drop" ng-model="selectedseg" ng-options="obj.key as obj.enSegment for obj in buildSegments">
+	<option value="">Select Segment</option>
+</select>
 
-	 </select><br><br><br>
+<br><br>
 	  
   <label  class="lab" > Translation language : </label>	
-<select class= "drop">
-	 <option value="" disabled selected>Select </option
-<option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-	 </select><br><br><br><br>
+<select ng-change="getOutput()" ng-model="tLang">
+				<option value="">Select target</option>
+				<option value="frSegment">French</option>
+				<option value="deSegment">German</option>
+				<option value="koSegment">Korean</option>
+				<option value="zhSegment">Chinese</option>
+				<option value="jpSegment">Japanese</option>  
+</select>
+			
+	<br><br><br><br><br><br><br><br>
 
 
-	 <label class="lab"> Translated Segment : </label>
+	 <label class="lab" id="displayTextArea1" style="display:none"> Translated Segment : <textarea rows="2" cols="75" ng-bind="outputsegment">  </textarea></label>
 
-	 	<textarea rows="4" cols="50">  </textarea>
+</div>
 	 
 
 	</fieldset>
+		</div>
 		
 
 			</div>

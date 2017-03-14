@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="phase1">
 <head>
 	<meta charset="UTF-8">
 	<title>The Mean GRC</title>
 	<link rel="stylesheet" href="\css\style.css" type="text/css">
+	<script src="https://code.angularjs.org/1.2.22/angular.js"></script>
+	<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script src="../Phase_1/phase1display.js"></script>
 	
 </head>
 <body>
@@ -21,7 +24,7 @@
   <button class="dropbtn">Releases</button>
   <div class="dropdown-content">
     <a href="\Display\Phase_1\phase1display.html">001</a>
-    <a href="\Display\Phase_2\phase3display.html">002</a>
+    <a href="\Display\Phase_2\phase2display.html">002</a>
  
   </div>
 </div>
@@ -36,44 +39,46 @@
 			<h2>You are at Phase #3</h2>
 	<legend>	<em>select the Source build, English segment and Check with target build if english segment is changed or same : </em><br><br><br></legend>
 
-
-<label  class="lab" > Source Build : </label>	
-<select class= "drop">
-	 <option value="" disabled selected>Select </option
-<option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-	 </select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<div ng-controller="phase3Controller">
+<label  class="lab" >Source Build : </label>	
+<select ng-model="selectedSrcBuildNo" ng-change="getSegmentsForBuild()">
+    		<option value="">Select BuildNo</option>
+			<option value="b001">BuildNo: 1</option>
+			<option value="b002">BuildNo: 2</option>
+			<option value="b003">BuildNo: 3</option>
+			</select>
+			
+	 &nbsp; &nbsp; &nbsp; &nbsp;
 
 
 	  <label class="lab"> English Segment      : </label>	
 	
- <select class= "drop" >
-	  <option value="" disabled selected>Select </option
-	 <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
+ <select class="dropLang" ng-model="selectedseg" ng-options="obj.key as obj.enSegment for obj in buildSegments">
+	<option value="">Select Segment</option>
+</select>
 
-	 </select><br><br><br>
+<br><br><br>
 	  
   <label  class="lab" > Target build : </label>	
-<select class= "drop">
-	 <option value="" disabled selected>Select </option
-<option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-	 </select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<select ng-model="selectedTgtBuildNo" ng-change="getOutput()">
+    		<option value="">Select BuildNo</option>
+			<option value="b001">BuildNo: 1</option>
+			<option value="b002">BuildNo: 2</option>
+			<option value="b003">BuildNo: 3</option>
+			</select>
+			
+			 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
+			 <br>
+			 <br>
 
-	 <label class="lab">Target OutPut Segment : </label>
+			
 
-	 	<textarea rows="4" cols="30">  </textarea>
-	 
+	 <label class="lab" id="displayTextArea1" style="display:none">Target Output Segment : <textarea rows="2" cols="75" ng-bind="outputsegment">  </textarea></label>
 
-	</fieldset>
+</div>
+
+		
 		
 
 			</div>
